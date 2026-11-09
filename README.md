@@ -1,5 +1,7 @@
 # RAMP: onboarding and KYC drop-off recovery
 
+**Live app: https://ramp-onboard-recovery.streamlit.app/**
+
 Razorpay Campus AI Build-a-thon, Problem 3. A Streamlit app that, for every
 onboarding application that has not activated:
 
@@ -14,8 +16,12 @@ Data is synthetic (the build-a-thon Data Pack).
 
 ## Try it
 
-Click **Load demo data** in the app. Or upload an applications file and a rejection catalog in
-the same format (one workbook with both tabs, or two files; `.xlsx` or `.csv`).
+Open the [live app](https://ramp-onboard-recovery.streamlit.app/) and click **Load demo data**.
+Or upload an applications file and a rejection catalog in the same format (one workbook with both
+tabs, or two files; `.xlsx` or `.csv`).
+
+The app runs on Streamlit Community Cloud's free tier, which puts it to sleep after a while without
+visitors. If you see a "wake up" button, click it and allow about a minute for it to start.
 
 ## Results on the Data Pack
 
